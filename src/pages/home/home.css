@@ -1,0 +1,134 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--clr-grey-10);
+    height: calc(100vh - 25vh);
+    color: var(--clr-grey-2);
+    position:relative;
+}
+.home-text{
+    max-width: 50vw;
+    
+}
+
+@media screen and (max-width: 992px){
+    .home-text{
+        padding-top: 11rem;
+        max-width: 80vw;
+    }
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    
+}
+.icon{
+    margin: 1rem;
+   
+}
+.html{
+    color:coral;
+    transition: var(--transition);
+}
+.html:hover{
+    color: var(--clr-primary-7);
+}
+
+.css{
+    color:blue;
+    transition: var(--transition);
+}
+.css:hover{
+    color: var(--clr-primary-7);
+}
+.js{
+    color: rgb(219, 219, 19);
+    transition: var(--transition);
+}
+.js:hover{
+    color: var(--clr-primary-7);
+}
+.node{
+    color:green;
+    transition: var(--transition);
+}
+.node:hover{
+    color: var(--clr-primary-7);
+}
+.git{
+    color: orange;
+    transition: var(--transition);
+}
+.git:hover{
+    color: var(--clr-primary-7);
+}
+.sass{
+    color:lightseagreen;
+    transition: var(--transition);
+}
+.sass:hover{
+    color: var(--clr-primary-7);
+}
+.react{
+    color:lightskyblue;
+    transition: var(--transition);
+}
+.react:hover{
+    color: var(--clr-primary-7);
+}
+.mongo{
+    color:green;
+    transition: var(--transition);
+}
+.mongo:hover{
+    color: var(--clr-primary-7);
+}
+.mysql{
+    color: rgb(80, 80, 233);
+    transition: var(--transition);
+}
+.mysql:hover{
+    color: var(--clr-primary-7);
+}
+
+
+
+.icon {
+    opacity: 0;
+    animation: icon .4s linear forwards;
+}
+
+@keyframes icon {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+}
+
+    to {
+        opacity: 1;
+        transform : translateY(0);
+    }
+}
+
+.arrow{
+    position: absolute;
+            bottom:2%;
+            right: 12%;
+}
+
+.arrow img{
+    width: 2.5rem;
+    transform: rotate(-90deg);
+    animation: arrowBlink 2s infinite;
+    
+}
+@keyframes arrowBlink{
+    100%{
+        opacity: 0;
+    }
+}
