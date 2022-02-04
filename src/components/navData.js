@@ -27,12 +27,12 @@ export const social = [
   },
   {
     id: 2,
-    url: 'https://twitter.com/home',
+    url: 'https://www.linkedin.com/in/krishna-mahato-web-dev/',
     icon: <FaTwitter size={32} />,
   },
   {
     id: 3,
-    url: 'https://www.linkedin.com/in/krishna-mahato-web-dev/',
+    url: 'https://twitter.com/home',
     icon: <FaLinkedin size={32} />,
   }
  

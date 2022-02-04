@@ -185,9 +185,10 @@ Variables
     color: var(--clr-primary-5);
     padding-left: 1.5rem;
   }
-  .social-icons {
-    display: none;
-  }
+  
+
+
+
   .links-container {
     height: 0;
     overflow: hidden;
@@ -236,4 +237,20 @@ Variables
     .social-icons a:hover {
       color: var(--clr-primary-7);
     }
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--clr-grey-10);
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--clr-primary-4);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--clr-primary-7);
+    cursor: pointer;
   }

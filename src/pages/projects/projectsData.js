@@ -26,7 +26,7 @@ export const projects = [
       img: './assets/hakk.png',
       alt:'E-commerce',
       title:'E-commerce',
-      desc: 'A very basic e-commerce Web Application. As a part of five-days-team project, Project uses React functional components, multiple libraries for carousel, user authentications, payment methods, shopping carts, etc.',
+      desc: 'A very basic e-commerce Web Application. As a part of five-days-team project. Project uses React functional components, multiple libraries for carousel, user authentications, payment methods, shopping carts, etc.',
       code:'code',
       link:"https://react-hakk-online-shop.vercel.app/",
       gitLink:"https://github.com/hbolouri/react-hakk-online-shop"
