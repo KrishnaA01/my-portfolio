@@ -228,6 +228,7 @@ Variables
     }
     .social-icons {
       display: flex;
+      
     }
     .social-icons a {
       margin: 0 0.5rem;
@@ -243,7 +244,7 @@ Variables
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--clr-grey-10);
+    background-color: inherit;
   }
   .social-icons a {
     margin: 0 0.5rem;

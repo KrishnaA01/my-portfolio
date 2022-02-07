@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 import React, { useState, useRef, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa'
 import { links, social } from './navData'
-import logo from './logo.svg'
+import logo from './KM.png'
 import './navbar.css'
 
 const Navbar = () => {
